@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(252, 217, 217);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+
+  animation-name: beat;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.circles {
+  display: flex;
+}
+.circle {
+  height: 180px;
+  width: 180px;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: -75px;
+}
+.circle:nth-child(2) {
+  margin-left: -50px;
+}
+.square {
+  height: 180px;
+  width: 180px;
+  background-color: red;
+  transform: rotate(45deg);
+  margin: 0 auto;
+  margin-top: -115px;
+}
