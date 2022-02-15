@@ -46,4 +46,5 @@ body {
   transform: rotate(45deg);
   margin: 0 auto;
   margin-top: -115px;
+  border-radius: 20% 0;
 }
