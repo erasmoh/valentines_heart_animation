@@ -2,4 +2,4 @@
 
 Happy valentine's everybody!
 
-Work in progress to add buttons and sliders as heart
+Work in progress to add buttons and sliders as heart.
